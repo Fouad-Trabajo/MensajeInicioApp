@@ -1,12 +1,12 @@
 package com.personal.app.features.message_start_app.domain;
 
-public class Message {
+public class MessageUseCase {
 
     //Atributo
     private final MessageRepository messageRepository;
 
     //Constructor
-    public Message(MessageRepository messageRepository) {
+    public MessageUseCase(MessageRepository messageRepository) {
         this.messageRepository = messageRepository;
     }
 
